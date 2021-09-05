@@ -55,10 +55,15 @@
   cursor: pointer;
 }
 /* текст в модалке */
-
-.questionary__topic {
+.questionary {
   width: 448px;
   margin: 40px 40px 12px 40px;
+  box-shadow: none;
+}
+.questionary__topic {
+  // width: 448px;
+  // margin: 40px 40px 12px 40px;
+  font-family: Roboto;
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
@@ -66,14 +71,6 @@
 
   color: $title-text-color;
 }
-.form {
-  width: 448px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
 .form-field {
   position: relative;
   margin-bottom: 10px;
@@ -101,15 +98,15 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-field input::placeholder {
-  color: #000000;
+  color: $logo-color;
 }
 .form-field__input:hover,
 .form-field__input:focus {
   border: 1px solid $accent-color;
   cursor: pointer;
 }
-.form-field__input:focus + .form-icon,
-.form-field__input:hover + .form-icon {
+.form-field__input:focus + .form-field__icon,
+.form-field__input:hover + .form-field__icon {
   fill: $accent-color;
 }
 
