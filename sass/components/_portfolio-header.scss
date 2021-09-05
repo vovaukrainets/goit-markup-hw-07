@@ -1,0 +1,36 @@
+/*header*/
+.header {
+  border-bottom: 1px solid #ececec;
+  background-color: $white-color;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+/* logo */
+.header__logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.header__accent {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
+  color: $accent-color;
+}
