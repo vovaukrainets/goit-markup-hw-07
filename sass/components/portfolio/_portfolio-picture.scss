@@ -3,7 +3,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  box-sizing: border-box;
 }
 
 .picture__item {
@@ -79,6 +78,16 @@
 .picture__item:nth-child(3n) {
   margin-right: 0;
 }
+.card-content__text {
+  font-family: Roboto;
+  font-weight: 700;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  color: $title-text-color;
+}
 .card-content__title {
   width: 320px;
   margin-top: 0;
@@ -89,15 +98,5 @@
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
-  text-decoration: none;
-}
-
-.card-content__text {
-  font-family: Roboto;
-  font-weight: 700;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
   text-decoration: none;
 }
